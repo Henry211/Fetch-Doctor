@@ -1,0 +1,158 @@
+body{
+    background-color: steelblue;
+}
+#user-group{
+    margin-bottom: 20px;
+}
+
+#contrasena-group{
+    margin-bottom: 20px;
+}
+
+button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.modal-content{
+    background-color: #3b4652 ;
+    opacity: .85;
+    padding: 0 30px;
+    box-shadow:0 0 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius:15px;
+    
+}
+.user-img img{
+    width: 200px;
+    height: 200px;
+}
+
+#img-perfil{
+    border-radius: 55%;
+    box-shadow:0 0 30px rgba(10,10,0,0.5);
+}
+
+.form-goup input{
+    height: 40px;
+    font-size: 15px;
+    border:0;
+    padding-left: 50px;
+}
+
+.form-goup::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left:40px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.form-goup#user-group::before{
+    content:"\f2bb";
+}
+
+.form-goup#contrasena-group::before{
+    content:"\f023";
+}
+
+.form-goup#name-group::before{
+    content:"\f007";
+}
+
+button{
+    width:60%;
+}
+
+#btn-perfil{
+    width:150px;
+    height: 50px;
+    position: absolute;
+    left: 45%;
+    background-color: #2D99E1;
+    color:white;
+}
+
+.pad{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom:  20px;
+    padding-top: 20px;
+    background-color: lightblue;
+}
+
+.form-control{
+    background-color: lavender;
+    border-color: darkblue;
+}
+
+.form-select{
+    background-color: lavender;
+    border-color: darkblue;
+}
+
+.sombra{
+    box-shadow:0 0 30px rgba(0,0,0,0.5);
+}
+
+#name-group{
+    padding-bottom: 20px;
+}
+
+.btn-editForm{
+    position:relative;
+    align-content: center;
+    align-items: center;
+    margin-left: 25%;
+    border-radius: 9px;
+    width: 200px;
+    height: 40px;
+}
+
+.add-btn{
+    background-color: lightgreen;
+    text-decoration: none;
+    width: 400px;
+    border-radius: 20%;
+    margin-left: 20px;
+}
+
+.radioLabels{
+
+    color: lightsalmon;
+    font-weight: bold;
+    display: block;
+    width: 450px;
+    float: left;
+}
+
+.parent-day{
+    text-align: center;
+}
+
+.child-day{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+
+.btn-date{
+    position: relative;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.col-body{
+    visibility: hidden;
+   
+    border: 1px solid gray;
+    
+    background-color:palegreen;
+}
+
+.col-body.active{
+    visibility: visible;
+}
